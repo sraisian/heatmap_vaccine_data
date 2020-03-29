@@ -17,7 +17,7 @@ Plotly.d3.csv('static/data/Vaccinations Data/vaccine1617data.csv', function(err,
               [0.8, 'rgb(117,107,177)'], [1, 'rgb(84,39,143)']
           ],
           colorbar: {
-              title: 'Millions USD',
+              title: 'Total Vaccinated',
               thickness: 0.2
           },
           marker: {
@@ -30,7 +30,7 @@ Plotly.d3.csv('static/data/Vaccinations Data/vaccine1617data.csv', function(err,
 
 
       var layout = {
-          title: '2011 US Agriculture Exports by State',
+          title: '2016-2017 Flu Season Vaccinations by State',
           geo:{
               scope: 'usa',
               showlakes: true,
